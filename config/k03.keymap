@@ -19,11 +19,11 @@
 
         base {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3   &kp N4    &kp N5                          &kp N6  &kp N7    &kp N8     &kp N9         &kp N0    &kp BSPC
-&kp ESC    &kp Q   &kp W     &kp E    &kp R     &kp T                           &kp Y   &kp U     &kp I      &kp O          &kp P     &kp BSLH
-&kp LCTRL  &kp A   &kp S     &kp D    &kp F     &kp G                           &kp H   &kp J     &kp K      &kp L          &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C    &kp V     &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M     &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
-                   &kp LALT  &kp TAB  &kp LGUI  &mo 1   &kp SPACE    &kp ENTER  &mo 2   &kp RGUI  &trans     &kp RIGHT_ALT
+&kp GRAVE  &kp N1  &kp N2    &kp N3   &kp N4     &kp N5                        &kp N6  &kp N7     &kp N8         &kp N9         &kp N0    &kp BSPC
+&kp ESC    &kp Q   &kp W     &kp E    &kp R      &kp T                         &kp Y   &kp U      &kp I          &kp O          &kp P     &kp BSLH
+&kp LCTRL  &kp A   &kp S     &kp D    &kp F      &kp G                         &kp H   &kp J      &kp K          &kp L          &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X     &kp C    &kp V      &kp B   &kp LBKT    &kp RBKT  &kp N   &kp M      &kp COMMA      &kp DOT        &kp FSLH  &kp RSHFT
+                   &kp LALT  &kp TAB  &kp SPACE  &mo 1   &kp LGUI    &kp RGUI  &mo 2   &kp ENTER  &kp BACKSPACE  &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans        &trans  &trans         &trans                            &trans       &trans            &kp CARET  &trans             &trans           &trans
-&kp F1  &kp F2  &kp F3        &kp F4  &kp F5         &kp F6                            &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
-&trans  &trans  &trans        &trans  &trans         &kp RET                           &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
-&trans  &trans  &kp LC(LEFT)  &trans  &kp LC(RIGHT)  &kp DEL  &trans    &trans         &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &trans           &trans
-                &trans        &trans  &trans         &trans   &trans    &kp BACKSPACE  &mo 3        &trans            &trans     &trans
+&trans  &trans        &trans        &trans        &trans         &trans                          &trans       &trans            &kp CARET  &trans             &trans           &trans
+&kp F1  &kp F2        &kp F3        &kp F4        &kp F5         &kp F6                          &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5                    &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
+&trans  &trans        &kp LC(LEFT)  &trans        &kp LC(RIGHT)  &trans        &trans    &trans  &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &trans           &trans
+                      &trans        &trans        &trans         &trans        &trans    &trans  &mo 3        &trans            &trans     &trans
             >;
 
             display-name = "Navigation";
@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp AT    &kp DLLR   &kp HASH  &trans                              &trans    &trans          &trans  &trans           &trans   &trans
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                           &kp F7    &kp F8          &kp F9  &kp F10          &kp F11  &kp F12
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                            &kp LEFT  &kp DOWN_ARROW  &kp UP  &kp RIGHT_ARROW  &trans   &trans
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &trans     &trans           &trans  &trans    &trans          &trans  &trans           &trans   &trans
-                  &trans    &trans     &trans    &mo 3      &kp BACKSPACE    &trans  &trans    &trans          &trans  &trans
+&trans  &trans    &kp AT    &kp DLLR   &kp HASH  &kp RU_NUMERO                    &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                        &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
+&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &trans         &trans    &trans  &trans        &trans        &trans        &trans        &trans        &trans
+                  &trans    &trans     &trans    &mo 3          &trans    &trans  &trans        &trans        &trans        &trans
             >;
 
             display-name = "Symbols";
@@ -62,10 +62,10 @@
 
         adj {
             bindings = <
-&bootloader  &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
-&trans       &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans            &trans        &trans        &studio_unlock
-&trans       &trans  &trans  &trans  &trans  &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &trans        &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans        &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &bt BT_CLR_ALL
+&trans       &trans  &trans  &trans  &trans  &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
+&trans       &trans  &trans  &trans  &trans  &trans                    &kp LEFT      &kp DOWN      &kp UP            &kp RIGHT        &trans        &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans    &trans  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT       &trans        &trans
                      &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans            &trans
             >;
 
