@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&trans       &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                    &trans       &trans            &kp CARET  &trans             &trans           &trans
-&kp LG(TAB)  &trans            &trans            &trans            &trans            &trans                              &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
-&trans       &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                        &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
-&trans       &trans            &kp LC(LEFT)      &trans            &kp LC(RIGHT)     &trans            &trans    &trans  &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
-                               &trans            &trans            &trans            &trans            &trans    &trans  &mo 3        &kp RGUI          &trans     &kp RU_QMARK
+&trans   &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans       &trans            &kp CARET  &trans             &trans           &trans
+&kp TAB  &trans            &trans            &trans            &trans            &trans                                     &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
+&trans   &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                               &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
+&trans   &trans            &kp LC(LEFT)      &trans            &kp LC(RIGHT)     &trans            &trans    &trans         &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
+                           &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3        &kp RGUI          &trans     &kp RU_QMARK
             >;
 
             display-name = "Navigation";
@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans       &trans    &kp AT    &kp DLLR   &kp HASH  &kp RU_NUMERO                    &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &trans
-&kp RG(TAB)  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                        &trans            &trans            &trans            &trans            &trans            &trans
-&trans       &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                         &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
-&trans       &trans    &kp STAR  &kp COLON  &kp FSLH  &trans         &trans    &trans  &trans            &trans            &trans            &trans            &trans            &trans
-                       &trans    &trans     &kp LGUI  &mo 3          &trans    &trans  &trans            &trans            &trans            &trans
+&trans   &trans    &kp AT    &kp DLLR   &kp HASH  &kp RU_NUMERO                           &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &trans
+&kp TAB  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                               &trans            &trans            &trans            &trans            &trans            &trans
+&trans   &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                                &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
+&trans   &trans    &kp STAR  &kp COLON  &kp FSLH  &trans         &trans           &trans  &trans            &trans            &trans            &trans            &trans            &trans
+                   &trans    &trans     &kp LGUI  &mo 3          &kp RG(SPACE)    &trans  &trans            &trans            &trans            &trans
             >;
 
             display-name = "Symbols";
