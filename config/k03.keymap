@@ -19,11 +19,11 @@
 
         base {
             bindings = <
-&kp F1         &kp F2  &kp F3    &kp F4    &kp F5    &kp F6                              &kp F7      &kp F8         &kp F9     &kp F10        &kp F11   &kp F12
-&kp TAB        &kp Q   &kp W     &kp E     &kp R     &kp T                               &kp Y       &kp U          &kp I      &kp O          &kp P     &kp BSLH
-&mt LCTRL ESC  &kp A   &kp S     &kp D     &kp F     &kp G                               &kp H       &kp J          &kp K      &kp L          &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z   &kp X     &kp C     &kp V     &kp B       &kp LBKT     &kp RBKT   &kp N       &kp M          &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
-                       &kp LALT  &kp LGUI  &kp BSPC  &lt 1 LGUI  &kp SPACE    &kp ENTER  &lt 2 RGUI  &kp BACKSPACE  &kp RGUI   &kp RIGHT_ALT
+&kp TAB     &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                              &kp N6      &kp N7         &kp N8     &kp N9         &kp N0    &kp BSPC
+&kp ESCAPE  &kp Q   &kp W     &kp E     &kp R     &kp T                               &kp Y       &kp U          &kp I      &kp O          &kp P     &kp BSLH
+&kp LCTRL   &kp A   &kp S     &kp D     &kp F     &kp G                               &kp H       &kp J          &kp K      &kp L          &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z   &kp X     &kp C     &kp V     &kp B       &kp LBKT     &kp RBKT   &kp N       &kp M          &kp COMMA  &kp DOT        &kp FSLH  &kp RSHFT
+                    &kp LALT  &kp LGUI  &kp BSPC  &lt 1 LGUI  &kp SPACE    &kp ENTER  &lt 2 RGUI  &kp BACKSPACE  &kp RGUI   &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans       &trans            &kp CARET  &trans             &trans           &kp LG(BACKSPACE)
-&trans  &trans            &trans            &trans            &trans            &trans                                     &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
-&trans  &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                               &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
-&trans  &trans            &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans            &trans    &trans         &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
-                          &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3        &trans            &trans     &kp RU_QMARK
+&kp ESCAPE  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans       &trans            &kp CARET  &trans             &trans           &kp LG(BACKSPACE)
+&kp F1      &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                     &trans       &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
+&trans      &trans            &trans            &trans            &trans            &trans                                     &kp PERCENT  &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
+&trans      &trans            &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans            &trans    &trans         &trans       &kp PIPE          &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
+                              &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3        &trans            &trans     &kp RU_QMARK
             >;
 
             display-name = "Navigation";
@@ -50,11 +50,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp AT    &kp DLLR   &kp HASH   &kp RU_NUMERO                       &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &kp RG(BACKSPACE)
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                           &trans            &trans            &trans            &trans            &trans            &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR   &kp PLUS                            &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH   &trans         &trans       &trans  &trans            &trans            &trans            &trans            &trans            &trans
-                  &trans    &trans     &kp LC(N)  &mo 3          &kp RC(P)    &trans  &trans            &trans            &trans            &trans
+&kp ESCAPE  &trans    &kp AT    &kp DLLR   &kp HASH   &kp RU_NUMERO                       &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &kp RG(NUMBER_9)  &kp RG(NUMBER_0)  &kp RG(BACKSPACE)
+&trans      &trans    &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                           &kp F7            &kp F8            &kp F9            &kp F10           &kp F11           &kp F12
+&trans      &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR   &kp PLUS                            &trans            &trans            &trans            &trans            &trans            &trans
+&trans      &trans    &kp STAR  &kp COLON  &kp FSLH   &trans         &trans       &trans  &trans            &trans            &trans            &trans            &trans            &trans
+                      &trans    &trans     &kp LC(N)  &mo 3          &kp RC(P)    &trans  &trans            &trans            &trans            &trans
             >;
 
             display-name = "Symbols";
