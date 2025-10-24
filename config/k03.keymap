@@ -38,11 +38,11 @@
 
         nav {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans           &trans            &kp CARET  &trans             &trans           &kp LG(BACKSPACE)
-&kp F1  &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                     &trans           &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
-&trans  &trans            &trans            &trans            &trans            &trans                                     &kp PERCENT      &kp LEFT_BRACE    &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
-&trans  &trans            &trans            &trans            &trans            &trans            &trans    &trans         &kp RU_QUESTION  &kp PIPE          &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
-                          &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3            &trans            &trans     &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans           &trans             &kp CARET  &trans             &trans           &kp LG(BACKSPACE)
+&kp F1  &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                     &trans           &kp LEFT_BRACKET   &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
+&trans  &trans            &trans            &trans            &trans            &trans                                     &kp PERCENT      &kp LEFT_BRACE     &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
+&trans  &trans            &trans            &trans            &trans            &trans            &trans    &trans         &kp RU_QUESTION  &kp PIPE           &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
+                          &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3            &kp LA(BACKSPACE)  &trans     &trans
             >;
 
             display-name = "Navigation";
