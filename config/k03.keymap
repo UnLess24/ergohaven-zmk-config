@@ -19,11 +19,11 @@
 
         base {
             bindings = <
-&kp TAB     &kp N1  &kp N2    &kp N3  &kp N4     &kp N5                                  &kp N6      &kp N7         &kp N8     &kp N9         &kp N0    &trans
-&kp ESCAPE  &kp Q   &kp W     &kp E   &kp R      &kp T                                   &kp Y       &kp U          &kp I      &kp O          &kp P     &kp BSLH
-&kp LCTRL   &kp A   &kp S     &kp D   &kp F      &kp G                                   &kp H       &kp J          &kp K      &kp L          &kp SEMI  &kp SQT
-&trans      &kp Z   &kp X     &kp C   &kp V      &kp B           &kp LGUI     &kp RGUI   &kp N       &kp M          &kp COMMA  &kp DOT        &kp FSLH  &trans
-                    &kp LALT  &trans  &kp LSHFT  &lt 1 LEFT_GUI  &kp SPACE    &kp ENTER  &lt 2 RGUI  &kp BACKSPACE  &kp RSHFT  &kp RIGHT_ALT
+&kp TAB     &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                                  &kp N6      &kp N7               &kp N8     &kp N9         &kp N0    &trans
+&kp ESCAPE  &kp Q   &kp W     &kp E     &kp R      &kp T                                   &kp Y       &kp U                &kp I      &kp O          &kp P     &kp BSLH
+&kp LCTRL   &kp A   &kp S     &kp D     &kp F      &kp G                                   &kp H       &kp J                &kp K      &kp L          &kp SEMI  &kp SQT
+&trans      &kp Z   &kp X     &kp C     &kp V      &kp B           &trans       &trans     &kp N       &kp M                &kp COMMA  &kp DOT        &kp FSLH  &trans
+                    &kp LALT  &kp LGUI  &kp LSHFT  &lt 1 LEFT_GUI  &kp SPACE    &kp ENTER  &lt 2 RGUI  &mt BACKSPACE LSHFT  &kp RGUI   &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -40,8 +40,8 @@
             bindings = <
 &trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)                           &trans           &trans             &kp CARET  &trans             &trans           &kp LG(BACKSPACE)
 &kp F1  &kp F2            &kp F3            &kp F4            &kp F5            &kp F6                                     &trans           &kp LEFT_BRACKET   &kp UNDER  &kp RIGHT_BRACKET  &trans           &trans
-&trans  &trans            &trans            &trans            &trans            &trans                                     &kp PERCENT      &kp LEFT_BRACE     &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
-&trans  &trans            &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans            &trans    &trans         &kp RU_QUESTION  &kp PIPE           &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
+&trans  &kp LG(A)         &trans            &trans            &kp LG(F)         &trans                                     &kp PERCENT      &kp LEFT_BRACE     &kp SEMI   &kp RIGHT_BRACE    &kp EXCLAMATION  &trans
+&trans  &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans            &trans    &trans         &kp RU_QUESTION  &kp PIPE           &kp TILDE  &kp AMPERSAND      &kp QMARK        &trans
                           &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &mo 3            &kp LA(BACKSPACE)  &trans     &trans
             >;
 
