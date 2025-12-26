@@ -45,7 +45,7 @@
                           &trans            &trans            &trans            &trans            &trans    &kp LG(SPACE)  &lt 3 RGUI       &kp LA(BACKSPACE)  &trans     &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Nav";
         };
 
         sym {
