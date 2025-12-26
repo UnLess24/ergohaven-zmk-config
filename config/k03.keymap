@@ -54,7 +54,7 @@
 &trans  &trans    &kp LT    &kp EQUAL  &kp GT     &kp GRAVE                           &kp F7            &kp F8            &kp F9            &kp F10           &kp F11           &kp F12
 &trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR   &kp PLUS                            &trans            &trans            &trans            &trans            &trans            &trans
 &trans  &trans    &kp STAR  &kp COLON  &kp FSLH   &trans         &trans       &trans  &trans            &trans            &trans            &trans            &trans            &trans
-                  &trans    &trans     &kp LC(N)  &lt 3 LGUI     &kp RC(P)    &trans  &trans            &trans            &trans            &trans
+                  &trans    &trans     &kp LC(P)  &lt 3 LGUI     &kp RC(N)    &trans  &trans            &trans            &trans            &trans
             >;
 
             display-name = "Symbols";
